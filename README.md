@@ -44,14 +44,14 @@ To run the Docker Model Runner, you primarily need **Docker Desktop installed** 
 **1. Interacting via Docker Desktop:**
 
 *   In Docker Desktop, go to the **'Models' tab**.
-*   Browse and **pull models directly from DockerHub or HuggingFace** (e.g., `smol2` or `ai/gemma3`).
+*   Browse and **pull models directly from DockerHub or HuggingFace** (e.g., `smoll2` or `ai/gemma3`).
 *   Once pulled, click **'Run'** on a model to open an interactive chat interface directly within Docker Desktop.
 
 **2. Interacting via Command Line:**
 
 *   Open your terminal or command prompt.
 *   Use the **`docker model`** command, similar to Olama.
-    *   **Pull a model**: `docker model pull [model_name]` (e.g., `docker model pull AI/gemma3`).
+    *   **Pull a model**: `docker model pull [model_name]` (e.g., `docker model pull ai/gemma3`).
     *   **List installed models**: `docker model list`.
     *   **Run a model interactively**: `docker model run [model_name]`.
     *   **Exit chat**: Type `/bye` or press `Ctrl+C`.
@@ -80,7 +80,7 @@ To run the Docker Model Runner, you primarily need **Docker Desktop installed** 
             provider: model
             type: model
             options:
-              model: [your_model_name_here] # e.g., 'small2' or 'AI/gemma3'
+              model: [your_model_name_here] # e.g., 'smollm2' or 'ai/gemma3'
         ```
     *   This tells Docker Compose to manage the model runner as a dependency and specify which model to use.
 

@@ -1,7 +1,5 @@
 # Openai-API-LLM-Docker-Integration
 
-README.TXT
-
 **Docker Model Runner: Revolutionizing Local AI Model Deployment**
 
 The Docker Model Runner offers an **easier way to run AI models locally**, acting as a **complete game-changer** for local model deployment. It is built directly into Docker Desktop, providing a seamless experience for managing, running, and deploying models.

@@ -44,7 +44,7 @@ To run the Docker Model Runner, you primarily need **Docker Desktop installed** 
 **1. Interacting via Docker Desktop:**
 
 *   In Docker Desktop, go to the **'Models' tab**.
-*   Browse and **pull models directly from DockerHub or HuggingFace** (e.g., `smoll2` or `ai/gemma3`).
+*   Browse and **pull models directly from DockerHub or HuggingFace** (e.g., `smollm2` or `ai/gemma3`).
 *   Once pulled, click **'Run'** on a model to open an interactive chat interface directly within Docker Desktop.
 
 **2. Interacting via Command Line:**
